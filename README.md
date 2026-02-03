@@ -71,3 +71,5 @@
 ### API 요구사항
 
 <img width="1126" height="407" alt="image" src="https://github.com/user-attachments/assets/90d7577f-02f4-407e-bd86-abe6921351b7" />
+
+<img width="2139" height="543" alt="image" src="https://github.com/user-attachments/assets/87bd08f2-2716-4595-81de-a5b5679787a4" />
