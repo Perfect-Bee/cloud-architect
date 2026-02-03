@@ -34,12 +34,17 @@
 </details>
 
 # Lv.2
+
+<details>
+  <sumarry> 열기/닫기 </sumarry>
+  
 ## 인프라 요구사항
 ### RDS
 
 <img width="1197" height="1018" alt="image" src="https://github.com/user-attachments/assets/ca28c70c-9ec3-441f-a7f9-bba59bf7e294" />
 
 ### 보안그룹체이닝
+**RDS 보안 그룹 스크린샷**
 
 <img width="2169" height="425" alt="image" src="https://github.com/user-attachments/assets/2ef4242a-f3b3-4883-b7fb-2b1dd2ff12e4" />
 
@@ -50,19 +55,19 @@
 
 ## 파라미터 -> RDS
 ### 파라미터 -> RDS 값을 /actuator/info 에서 확인
-조건!
-- **과제 제출 요구사항**
-    1. **Actuator Info 엔드포인트 URL**
-        - `/actuator/info`에 접속했을 때, Parameter Store에 저장했던 또는 확인용 파라미터 값이 JSON으로 출력되는 URL을 README.md에 작성하세요
-        - *(예: `http://3.34.xx.xx:8080/actuator/info`)*
-    2. **RDS 보안 그룹 스크린샷**
-        - AWS 콘솔 > RDS > 보안 그룹 > **[인바운드 규칙]** 탭을 캡처하세요.
-        - 소스(Source) 부분에 IP 주소(`0.0.0.0/0`)가 아닌, EC2의 보안 그룹 ID (`sg-xxxxx`)가 등록되어 있음을 보여주어야 합니다.
-      
 
+**Actuator Info 엔드포인트 URL**
+
+<img width="1297" height="697" alt="image" src="https://github.com/user-attachments/assets/4ec51a13-22b7-4e37-947f-9ff8460cbc76" />
+
+</details>
 
 # LV.3
 ## 프로필 사진 기능 : S3
 ### 인프라
 
-### 
+<img width="2486" height="1026" alt="image" src="https://github.com/user-attachments/assets/66147e3c-dd4f-4709-ae27-642592397cb4" />
+
+### API 요구사항
+
+<img width="1126" height="407" alt="image" src="https://github.com/user-attachments/assets/90d7577f-02f4-407e-bd86-abe6921351b7" />
